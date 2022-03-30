@@ -56,7 +56,7 @@ def explainer_model():
     # # ----------------------------------------------------------------------
 
     # load the model from disk
-    model = pickle.load(open(r"Model\model_scoring_credit.sav", 'rb')) 
+    model = pickle.load(open(r"Model/model_scoring_credit.sav", 'rb')) 
 
     # ----------------------------------------------------------------------
 
