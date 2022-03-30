@@ -57,7 +57,7 @@ def perform():
     left ,right = st.columns([1,1])
 
     # load the model from disk
-    model = pickle.load(open(r"Model\model_scoring_credit.sav", 'rb'))  
+    model = pickle.load(open(r"Model/model_scoring_credit.sav", 'rb'))  
 
     # ----------------------------------------------------------------------
     st.markdown(
