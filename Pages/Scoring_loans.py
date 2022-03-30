@@ -62,7 +62,7 @@ def explainer_model():
 
     left, mid, right = st.columns([1,4, 1])
     with mid:
-        st.title("Interpretation of the Model")
+        st.subheader("Interpretation of the Model")
 
     # ----------------------------------------------------------------------
 
