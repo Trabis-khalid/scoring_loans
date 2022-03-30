@@ -15,6 +15,7 @@ import shap
 import streamlit as st
 
 from sklearn.model_selection import train_test_split
+import sklearn
 from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import RandomUnderSampler 
 from imblearn.pipeline import Pipeline
@@ -28,7 +29,7 @@ import streamlit.components.v1 as components
 
 def explainer_model():
 
-    @st.cache(suppress_st_warning=True)
+    @st.cache(suppress_st_warning=True)c
     def load_data():
         df = pd.read_csv(r"Data/data_loans_107_cols.zip", compression='zip')
         return df
