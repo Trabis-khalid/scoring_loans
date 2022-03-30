@@ -15,7 +15,7 @@ import shap
 import streamlit as st
 
 from sklearn.model_selection import train_test_split
-import sklearn
+import imbalanced-learn
 from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import RandomUnderSampler 
 from imblearn.pipeline import Pipeline
