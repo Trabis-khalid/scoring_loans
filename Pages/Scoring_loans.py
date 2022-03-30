@@ -28,7 +28,7 @@ import streamlit.components.v1 as components
 
 def explainer_model():
 
-    @st.cache(suppress_st_warning=True)c
+    @st.cache(suppress_st_warning=True)
     def load_data():
         df = pd.read_csv(r"Data/data_loans_107_cols.zip", compression='zip')
         return df
