@@ -66,7 +66,7 @@ def explainer_model():
 
     # ----------------------------------------------------------------------
 
-    image_logo = Image.open("Logo\logo.jpg")
+    image_logo = Image.open("Logo/logo.jpg")
     newsize = (300, 168)
 
     left, mid ,right = st.columns([1,1, 1])
